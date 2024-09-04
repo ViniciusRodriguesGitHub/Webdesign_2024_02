@@ -10,34 +10,34 @@
     <form action="#" method="post">
         <label for="data">Data:</label>
         <input type="date" id="data" name="data">
-        <br><br>
+        <br>
 
         <label for="usuario">Usuário:</label>
         <input type="text" id="usuario" name="usuario">
-        <br><br>
+        <br>
         
         <label for="senha">Senha:</label>
         <input type="password" id="senha" name="senha">
-        <br><br>
+        <br>
         
         <h2>Dados Pessoais.</h2>
-        <br><br>
+        <br>
 
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome">
-        <br><br>
+        <br>
 
         <label for="endereco">Endereço:</label>
         <input type="text" id="endereco" name="endereco">
-        <br><br>
+        <br>
 
         <label for="numero">Número:</label>
         <input type="number" id="numero" name="numero">
-        <br><br>
+        <br>
 
         <label for="complemento">Complemento:</label>
         <input type="text" id="complemento" name="complemento">
-        <br><br>
+        <br>
 
         <label for="cidade">Cidade:</label>
         <input list="cidades" id="cidade" name="cidade">
@@ -47,7 +47,7 @@
             <option value="Rio de Janeiro">
             <option value="Belo Horizonte">
         </datalist>
-        <br><br>
+        <br>
         
         <label for="estado">Estado:</label>
         <select id="estado" name="estado">
@@ -55,28 +55,37 @@
             <option value="rj">Rio de Janeiro</option>
             <option value="mg">Minas Gerais</option>
         </select>
-        <br><br>
+        <br>
 
         <label for="cep">Número:</label>
         <input type="number" id="cep" name="cep" placeholder="00 000-000">
-        <br><br>
+        <br>
         
         <p>Gênero:</p>
         <label><input type="radio" id="masculino" name="genero" value="masculino"> Masculino</label><br>
         <label><input type="radio" id="feminino" name="genero" value="feminino"> Feminino</label><br>
         <label><input type="radio" id="indefinido" name="genero" value="indefinido"> Prefiro não falar</label>
-        <br><br>
-
+        <br>
+        
+        <p>Curso:</p>
         <label><input type="checkbox" id="ads" name="ads" value="ads"> ADS</label><br>
         <label><input type="checkbox" id="jogos" name="jogos" value="jogos"> Jogos</label><br>
         <label><input type="checkbox" id="ti" name="ti" value="ti"> Gestão de TI</label><br>
         <label><input type="checkbox" id="dados" name="dados" value="dados"> Banco de Dados</label>
-        <br><br>       
+        <br>     
         
         <p>Modelo:</p>
         <label><input type="radio" id="presencial" name="genero" value="presencial"> Presencial</label><br>
         <label><input type="radio" id="ead" name="genero" value="ead"> EAD</label><br>
         <label><input type="radio" id="semi" name="genero" value="semi"> Semi presencial</label>
+        <br><br>
+
+        <hr>
+        
+        <input type="reset" value="Limpar Formulário">
+        <br>
+        
+        <input type="submit" value="Enviar">
     </form>
     
 </body>
